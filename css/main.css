@@ -1,0 +1,232 @@
+/* header */
+.header{
+    padding-top: 40px;
+    background-color: #17cd4e;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    
+}
+
+.header-logo{
+    display: flex;
+}
+
+.header-logo-img{
+    width: 40px;
+    height: 40px;
+}
+
+.header-logo-name{
+    font-size: 1.5rem;
+    color: var(--header-color);
+    margin-left: 12px;
+}
+
+.header-logo-schoolName{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header-logo-facultyName{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+.header-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--header-color);
+}
+
+.header-list-content{
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.header-list-search{
+    padding: 8px 16px;
+}
+
+.header-list-search-icon{
+    display: inline-block;
+    color: var(--header-color);
+    font-size: 24px;
+}
+
+/* Container */
+.container{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    color: var(--header-color);
+    background-color: #179ccd;
+}
+.container-title{
+    font-size: 4rem;
+}
+
+.container-text{
+    font-size: 2rem;
+    font-weight: 300;
+}
+/* Thông tin thêm */
+.additionalInfo{
+    margin-top: 20px;
+}
+.additionalInfo-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.additionalInfo-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 22%;
+    height: 260px;
+    box-shadow: 1px 1px 6px 1px #888888;
+}
+.additionalInfo-block-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 6px 1px #888888;
+}
+.additionalInfo-block-icon-link{
+    width: 50px;
+    height: 50px;
+}
+.additionalInfo-block-number{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #17cd4e;
+    margin-bottom: 10px;
+}
+.additionalInfo-block-text{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* events */
+.events{
+    font-size: 1.5rem;
+}
+
+.events-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 60px 0;
+}
+
+.events-header-text{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.events-header-description{
+    margin-top: 24px;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.events-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.events-img{
+    width: 49.5%;
+    height: 300px;
+}
+
+.events-img-link{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 4px;
+}
+
+.events-content{
+    width: 49.5%;
+    height: 300px;
+    background-color: var(--back-content);
+}
+
+.events-content-header{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 24px 16px;
+}
+
+.events-content-description{
+    padding: 0 16px;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.events-content-more{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 16px;
+}
+
+.events-content-block{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.events-content-more-icon{
+
+}
+
+.events-content-more-time{
+    margin-left: 8px;
+}
+
+.events-content-more-readMore{
+    padding: 8px 16px;
+    font-size: 1.6rem;
+    color: #e42727
+}
+
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+}
+.arrow-icon{
+    font-size: 2rem;
+    color: #13c316;
+    padding: 8px;
+}
