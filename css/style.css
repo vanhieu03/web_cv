@@ -3,6 +3,7 @@
     --header-color: #fff;
     --text-color: #000;
     --back-content:#fff;
+    --footer-color:#fff;
 }
 *{
     padding: 0;
@@ -26,7 +27,6 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    margin-top: 60px;
 }
 .bodyContent-header-left{
     display: flex;
@@ -36,7 +36,7 @@ html{
     margin-top: 60px;
 }
 .bodyContent-header-text{
-    font-size: 3rem;
+    font-size: 3.3rem;
     text-transform: uppercase;
     font-weight: 800;
 }
@@ -63,4 +63,50 @@ html{
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 1.6;
+}
+
+.bodyContent-more{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodyContent-block{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.bodyContent-more-icon{
+
+}
+
+.bodyContent-more-time{
+    margin-left: 8px;
+}
+
+.bodyContent-more-readMore{
+    padding: 8px 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #e42727
+}
+
+.arrow-end{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.arrow-under{
+    display: flex;
+    justify-content: center;
+    transform: translateX(-6%);
+    margin-top: 16px;
+}
+
+.arrow-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
 }

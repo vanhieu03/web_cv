@@ -1,7 +1,28 @@
+/* Wrapper-header */
+.wrapper-header{
+    position: relative;
+}
+.wrapper-header-svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 0;
+}
+.wrapper-header-svg svg{
+    height: 85%; 
+    width: 100%;
+}
+
+.index-onTop{
+    position: relative;
+    z-index: 1;
+}
 /* header */
 .header{
     padding-top: 40px;
-    background-color: #17cd4e;
+    height: 60px;
 }
 
 .header-container{
@@ -11,7 +32,7 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    height: 60px;
+    
     
 }
 
@@ -31,13 +52,13 @@
 }
 
 .header-logo-schoolName{
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
 }
 
 .header-logo-facultyName{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-transform: capitalize;
     font-weight: 300;
     margin-top: 6px;
@@ -74,7 +95,6 @@
     text-align: center;
     padding-top: 100px;
     color: var(--header-color);
-    background-color: #179ccd;
 }
 .container-title{
     font-size: 4rem;
@@ -131,6 +151,7 @@
 /* events */
 .events{
     font-size: 1.5rem;
+    margin-top: 60px;
 }
 
 .events-container{
@@ -181,39 +202,10 @@
     margin-bottom: 32px;
 }
 
-.events-content-more{
-    display: flex;
-    justify-content: space-between;
+.events-more{
     margin: 32px 24px 0 24px;
 }
 
-.events-content-block{
-    display: flex;
-    align-items: center;
-    font-size: 1.6rem;
-    font-weight: 300;
-}
-
-.events-content-more-icon{
-
-}
-
-.events-content-more-time{
-    margin-left: 8px;
-}
-
-.events-content-more-readMore{
-    padding: 8px 16px;
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: #e42727
-}
-
-.arrow-end{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 16px;
-}
 .arrow-icon{
     font-size: 2rem;
     color: #13c316;
@@ -223,14 +215,271 @@
 .tranning-flex{
     display: flex;
 }
+.tranning-wrapper{
+    margin-right: 70px;
+}
 
 .tranning-img{
     width: 100%;
 }
 
-.arrow-under{
+
+/* Khoa học */
+
+.scientific{
+    margin-top: 60px;
+    background-color: #13c316;
+}
+
+.white-color{
+    color: var(--header-color);
+}
+
+.scientific-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.scientific-container-content{
+    width: 43%;
+    text-align: center;
+    background-color: var(--back-content);
+}
+
+.scientific-content-img{
+    margin-top: 20px;
+    width: 90%;
+}
+
+.scientific-content-text{
+    padding-top: 24px;
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.scientific-content-more{
+    font-size: 1.6rem;
+    padding: 24px 0;
+    color: rgb(207, 43, 54);
+    font-weight: 600;
+}
+
+/* Hợp tác */
+.collab-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.collab-insetMargin{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 350px;
+}
+
+.collab-content-imgleft{
+    position: absolute;
+    left: -36%;
+    width: 38%;
+    height: 85%;
+}
+.collab-content-img{
+    width: 38%;
+    height: 85%;
+    padding-left: 24px;
+}
+
+.collab-content-img-link{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collab-wrapper{
+    margin-right: 155px;
+    margin-left: 32px;
+}
+
+.collab-more{
+    margin-top: 20px;
+    margin-right: 155px;
+    margin-left: 32px;
+}
+
+.insetPadding{
+    padding-right: 115px;
+}
+
+/*  */
+.experience{
+    margin-top: 100px;
+}
+
+.experience-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    height: 400px;
+}
+
+.experience-container-wrapper{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.experience-container-wrapperChild{
+    padding: 100px 32px 48px 24px;
+}
+
+.experience-container-header{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.experience-container-description{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.experience-container-avatar{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: -14%;
+    left: 20%;
+}
+
+.experience-container-avatar-link{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* photoGallery */
+.photoGallery{
+    margin-bottom: 200px;
+}
+.photoGallery-container{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.photoGallery-container-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    margin-bottom: 16px;
+}
+.photoGallery-container-img-60{
+    width: 70%;
+    height: 100%;
+}
+.photoGallery-container-img-30{
+    width: 25%;
+    height: 100%;
+}
+.photoGallery-container-img-40{
+    width: 42%;
+    height: 100%;
+}
+.photoGallery-container-img-20{
+    width: 26%;
+    height: 100%;
+}
+.photoGallery-container-img-link{
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+.footer{
+    background-color: #13c316;
+}
+
+.footer-container{
+    
+}
+
+.footer-container-header{
     display: flex;
     justify-content: center;
-    transform: translateX(-6%);
-    margin-top: 16px;
+    align-items: center;
 }
+
+.footer-container-header-logo{
+    width: 70px;
+}
+
+.footer-container-header-text{
+    text-align: center;
+    font-size: 3.4rem;
+    color: var(--footer-color);
+    margin-left: 16px;
+}
+
+.footer-container-header-schoolName{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer-container-header-facultyName{
+    font-size: 3.4rem;
+}
+
+.footer-container-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.footer-flexEnd{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-container-content-wrapper{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.footer-info{
+    margin-bottom: 12px;
+}
+
+.footer-flexEnd .footer-container-content-wrapper{
+    margin-right: 12px;
+}
+
+.footer-container-more{
+    text-align: center;
+    padding-bottom: 60px;
+    font-weight: 300;
+}
+
+.footer-container-more-bigtext{
+    color: var(--footer-color);
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+.footer-container-more-smalltext{
+    color: var(--footer-color);
+    font-size: 1.2rem;
+}
+

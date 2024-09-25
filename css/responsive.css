@@ -1,0 +1,54 @@
+
+/* Tablet and mobile max:1024px */
+@media only screen and (max-width: 63.9375em){
+    .header-logo{
+        margin-left: 24px;
+    }
+    .header-list{
+        display: none;
+    }
+    .bodyContent-header-right, .arrow-end{
+        margin-right: 20px;
+    }
+    .bodyContent-header-left, .tranning-wrapper{
+        margin-left: 20px;
+    }
+    .collab-wrapper, .collab-more{
+        margin-right: 20px;
+    }
+    .insetPadding{
+        padding-right: 0;
+    }
+    
+}
+
+/* Tablet min: 739px max: 1023px*/
+@media only screen and (min-width: 46.1875em) and (max-width: 63.9375em){
+    .bodyContent-content-header{
+        margin-top: 0;
+    }
+    .events-more{
+        margin-top: 8px;
+    }
+    .experience-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .experience-container-wrapper{
+        width: 48%;
+        margin-bottom: 100px;
+    }
+    .experience-container-description{
+        margin-bottom: 8px;
+    }
+}
+/* Mobile max 739px */
+@media only screen and (max-width: 46.1875em){
+    
+}
+/* Mobile max 500px */
+@media only screen and (max-width: 31.25em){
+    
+}
