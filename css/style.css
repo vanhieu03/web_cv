@@ -57,12 +57,12 @@ html{
     font-size: 2rem;
     font-weight: 600;
     padding: 24px 0;
-    margin-top: 24px;
 }
 .bodyContent-content-description{
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .bodyContent-more{
@@ -103,6 +103,7 @@ html{
     justify-content: center;
     transform: translateX(-6%);
     margin-top: 16px;
+    margin-right: 120px;
 }
 
 .arrow-center{
