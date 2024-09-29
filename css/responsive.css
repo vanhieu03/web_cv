@@ -10,27 +10,45 @@
     .header-list{
         display: none;
     }
-    .bodyContent-header-right, .arrow-end{
+    .header-menu{
+        display: block;
+    }
+    .bodyContent-header-right{
         margin-right: 20px;
         text-align: center;
     }
-    .bodyContent-header-left, .tranning-wrapper{
+    .bodyContent-header-left, .tranning-flex-slider{
         margin-left: 20px;
     }
-    .collab-wrapper, .collab-more{
-        margin-right: 20px;
+
+    .events-container-slideshow{
+        margin-left: 20px;
+        margin-right: 20px;    
     }
-    .insetPadding{
-        padding-right: 0;
+
+    .additionalInfo-content{
+        justify-content: space-evenly;
+    }
+
+    .collab{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .collab-content-img{
+        right: 50%;
+    }
+    
+    .footer-container-content{
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
 
 /* Tablet min: 739px max: 1024px*/
 @media only screen and (min-width: 46.1875em) and (max-width: 64em){
-    .bodyContent-content-header{
-        margin-top: 0;
-    }
+    
     .experience-container-description{
         margin-bottom: 8px;
     }
@@ -47,38 +65,40 @@
     }
 }
 
-/* tablet max: 820px */
+/* Tablet max: 820px */
 @media only screen and (max-width: 51.25em){
-    .events-container{
-        justify-content: space-around;
-        flex-wrap: wrap;
-        height: auto;
-    }
-    .col-2{
-        width: 53%;
-    }
-    .events-img{
-        border-radius: 0;
+    .bodyContent-content-header{
+        margin-top: 0;
     }
     .events-more{
-        margin: 32px 24px 24px 24px;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
 }
 
-
 /* Mobile max 739px */
 @media only screen and (max-width: 46.1875em){
-    
+    .border-block{
+        border-radius: 12px;
+    }
+
+    .bodyContent-content-header{
+        margin-top: 0;
+    }
+    .header-wrapper-element{
+        width: 50%;
+    }
+
     .wrapper-header-css{
         height: 100%;
     }
-    .additionalInfo-content, .collab-content{
+    .additionalInfo-content, .collab-container{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
     }
-    .additionalInfo-block, .collab-content-list{
+    .additionalInfo-block, .collab-container-list{
         width: 42%;
         margin-bottom: 12px;
     }
@@ -87,17 +107,22 @@
         margin-right: 20px;
         margin-left: 20px;
     }
+    .events-container-slideshow{
+        border-radius: 12px;
+        box-shadow: 0 2px 12px 2px rgba(0, 0, 0, 0.1);
+    }
     .events-container{
         height: 100%;
         flex-wrap: wrap;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .col-2{
-        width: 99%;
     }
     .events-content{
         border-radius: 0;
+    }
+    .events-more{
+        margin-right: 12px;
+    }
+    .col-2{
+        width: 100%;
     }
     .events-img{
         border-radius: 6px 6px 0 0 ;
@@ -107,16 +132,18 @@
         width: 99%;
         text-align: center;
     }
-    .tranning-wrapper{
-        margin-right: 20px;
-    }
-    .bodyContent-content-description{
-        text-align: justify;
-    }
     .arrow-under{
         transform: none;
         margin-right: 0;
     }
+    .additionalInfo-block:nth-child(1), .additionalInfo-block:nth-child(3){
+        margin-top: 0;
+    }
+
+    .additionalInfo-block-text{
+        font-size: 1.8rem;
+    }
+
     .experience-container{
         display: flex;
         flex-wrap: wrap;
@@ -127,5 +154,25 @@
     .experience-container-wrapper{
         width: 80%;
         margin-bottom: 100px;
+    }
+    .footer-container-header-logo{
+        width: 50px;
+    }
+    .footer-container-header-schoolName{
+        font-size: 2.6rem;
+    }
+    .footer-container-header-facultyName{
+        font-size: 2rem;
+    }
+    .footer-container-content{
+        flex-wrap: wrap;
+    }
+
+    .footer-container-content-wrapper{
+        margin-bottom: 40px;
+    }
+
+    .footer-flexEnd{
+        justify-content: space-between;
     }
 }

@@ -107,7 +107,7 @@
 }
 
 .header-menu{
-
+    display: none;
 }
 
 .header-menu-icon{
@@ -139,10 +139,14 @@
     cursor: pointer;
 }
 
+.header-wrapper-element-list a{
+    color: var(--text-color);
+}
+
 
 .header-list{
-    display: none;
-    /* display: flex; */
+    /* display: none; */
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -153,6 +157,10 @@
 .header-list-content{
     padding: 8px 16px;
     text-transform: uppercase;
+}
+
+.header-list-content a{
+    color: var(--header-color);
 }
 
 .header-list-search{
@@ -185,11 +193,17 @@
 .additionalInfo{
     margin-top: 20px;
 }
+
 .additionalInfo-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.additionalInfo-block:nth-child(1), .additionalInfo-block:nth-child(3){
+    margin-top: 100px;
+}
+
 .additionalInfo-block{
     display: flex;
     justify-content: center;
@@ -200,6 +214,8 @@
     height: 260px;
     box-shadow: 1px 1px 6px 1px #888888;
 }
+
+
 .additionalInfo-block-icon{
     display: flex;
     align-items: center;
@@ -232,11 +248,25 @@
     margin-top: 60px;
 }
 
+.events-container-slideshow{
+    overflow: hidden;
+    margin-top: 60px;
+    border-radius: 4px 40px 4px 40px;
+    box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.events-container-wrapper{
+    display: flex;
+    width: 100%;
+    transition: transform 0.6s ease-in-out;
+}
+
 .events-container{
     display: flex;
+    flex: 1 0 100%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 60px;
+    width: 100%;
     height: 315px;
 }
 
@@ -247,9 +277,14 @@
 }
 
 .events-img{
+    border-radius: 4px 4px 4px 40px;
+    overflow: hidden;
+}
+
+.events-img-link{
     width: 100%;
     height: 100%;
-    border-radius: 4px 4px 4px 40px;
+    object-fit: cover;
 }
 
 .events-content{
@@ -261,6 +296,7 @@
 .events-wrapper{
     padding: 0 24px;
 }
+
 
 .events-content-header{
     font-size: 2rem;
@@ -286,13 +322,34 @@
     color: #13c316;
     padding: 8px;
 }
+
+.arrow-icon:hover{
+    color: #888888;
+    cursor: pointer;
+}
+
+.events-arrow{
+    margin-right: 20px;
+}
+
 /* tranning */
+
 .tranning-flex{
     display: flex;
     margin-top: 8px;
 }
+
+.tranning-flex-slider{
+    overflow: hidden;
+}
+
 .tranning-wrapper{
-    margin-right: 70px;
+    display: flex;
+    transition: transform 0.6s ease-out;
+}
+
+.tranning-container{
+    flex: 1 0 100%;
 }
 
 .tranning-img{
@@ -312,7 +369,6 @@
 .scientific-wrapper{
     position: relative;
     z-index: 1;
-    padding-top: 100px;
 }
 
 
@@ -360,35 +416,37 @@
 .scientific-content-more{
     font-size: 1.6rem;
     padding: 24px 0;
-    color: rgb(207, 43, 54);
+    color: #CF2B36;
     font-weight: 600;
 }
 
+.scientific-content-more:hover{
+    color: #af0813;
+    cursor: pointer;
+}
+
 /* Hợp tác */
-.collab-content{
+
+.collab-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 130px;
 }
 
-.collab-insetMargin{
+.collab-container-list{
     position: relative;
     display: flex;
     align-items: center;
-    height: 350px;
+    height: 320px;
 }
 
-.collab-content-imgleft{
-    position: absolute;
-    left: -36%;
-    width: 38%;
-    height: 85%;
-}
 .collab-content-img{
-    width: 38%;
-    height: 85%;
-    padding-left: 24px;
+    flex: 1 0 45%;
+    height: 100%;
+    position: relative;
+    right: 70%;
+    margin-left: 12px;
 }
 
 .collab-content-img-link{
@@ -398,19 +456,13 @@
 }
 
 .collab-wrapper{
-    margin-right: 155px;
-    margin-left: 32px;
 }
 
 .collab-more{
     margin-top: 20px;
-    margin-right: 155px;
-    margin-left: 32px;
+
 }
 
-.insetPadding{
-    padding-right: 55px;
-}
 
 /*  */
 .experience{
@@ -431,6 +483,7 @@
     height: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
 
 .experience-container-wrapperChild{
     padding: 100px 32px 48px 24px;
@@ -482,6 +535,7 @@
     margin-bottom: 16px;
 }
 .photoGallery-container-img-60{
+    overflow: hidden;
     width: 70%;
     height: 100%;
     object-fit: cover;
@@ -490,16 +544,19 @@
     width: 25%;
     height: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 .photoGallery-container-img-40{
     width: 42%;
     height: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 .photoGallery-container-img-20{
     width: 26%;
     height: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 .photoGallery-container-img-link{
     width: 100%;
