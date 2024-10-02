@@ -7,8 +7,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     </style>
     <link rel="stylesheet" href="./fonts/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css">
-    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="icon" href="./imgs/Logo.png" type="image/x-icon">
     <title>Giao diện</title>
@@ -80,28 +80,28 @@
         <!-- Thông tin thêm -->
         <div id="additionalInfo" class="additionalInfo width-content index-onTop">
             <div class="additionalInfo-content">
-                <div class="additionalInfo-block border-block onTopHover">
+                <div class="additionalInfo-block border-block">
                     <div class="additionalInfo-block-icon">
                         <img src="./imgs/pizza.png" alt="ảnh lỗi" class="additionalInfo-block-icon-link">
                     </div>
                     <div class="additionalInfo-block-number">20</div>
                     <div class="additionalInfo-block-text">Năm đào tạo</div>
                 </div>
-                <div class="additionalInfo-block border-block onTopHover">
+                <div class="additionalInfo-block border-block">
                     <div class="additionalInfo-block-icon">
                         <img src="./imgs/pizza.png" alt="ảnh lỗi" class="additionalInfo-block-icon-link">
                     </div>
                     <div class="additionalInfo-block-number">1,000+</div>
                     <div class="additionalInfo-block-text">SV được đào tạo</div>
                 </div>
-                <div class="additionalInfo-block border-block onTopHover">
+                <div class="additionalInfo-block border-block">
                     <div class="additionalInfo-block-icon">
                         <img src="./imgs/pizza.png" alt="ảnh lỗi" class="additionalInfo-block-icon-link">
                     </div>
                     <div class="additionalInfo-block-number">100+</div>
                     <div class="additionalInfo-block-text">Đối tác quốc tế</div>
                 </div>
-                <div class="additionalInfo-block border-block onTopHover">
+                <div class="additionalInfo-block border-block">
                     <div class="additionalInfo-block-icon">
                         <img src="./imgs/pizza.png" alt="ảnh lỗi" class="additionalInfo-block-icon-link">
                     </div>
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="bodyContent-more-time">21/10/2021</div>
                             </div>
-                            <div class="bodyContent-more-readMore">Xem thêm</div>
+                            <div class="bodyContent-more-readMore events-readMore">Xem thêm</div>
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                                 </div>
                                 <div class="bodyContent-more-time">21/10/2021</div>
                             </div>
-                            <div class="bodyContent-more-readMore">Xem thêm</div>
+                            <div class="bodyContent-more-readMore events-readMore">Xem thêm</div>
                         </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                                 </div>
                                 <div class="bodyContent-more-time">21/10/2021</div>
                             </div>
-                            <div class="bodyContent-more-readMore">Xem thêm</div>
+                            <div class="bodyContent-more-readMore events-readMore">Xem thêm</div>
                         </div>
                     </div>
                 </div>
@@ -210,7 +210,20 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
         </div>
+        <div class="events-overlay readMore-overlay">
+            <div class="events-overlay-container readMore-overlay-container width-content">
+                <div class="events-overlay-content">
+                    <div class="bodyContent-content-header events-overlay-content-header">
+                    </div>
+                    <div class="bodyContent-content-description events-overlay-content-description"></div>
+                </div>
+                <div class="back-overlay">
+                    <button class="back-overlay-btn">Back</button>   
+                </div>
+            </div>
+         </div>
      </div>
+     
     <!-- Đào tạo -->
     <div id="training" class="training width-content">
         <div class="onTopBubble onTopBubbleSmall onTopBubbleAddress9"></div>
@@ -224,34 +237,43 @@
                     <div class="tranning-container">
                         <div class="bodyContent-content-header">Hệ Chính quy Ngôn ngữ Italia</div>
                         <div class="bodyContent-content-description text-clamp line-7">
-                            Chương trình đào tạo đại học ngành Ngôn ngữ Italia nhằm 
-                            đào tạo sinh viên có phẩm chất chính trị vững vàng; có kiến 
-                            thức, kỹ năng, thái độ và đạo đức phù hợp để làm việc trong 
-                            môi trường đa ngôn ngữ, đa văn hóa và có khả năng thích ứng 
-                            cao với những thay đổi nhanh chóng của nền kinh tế đang 
-                            trong quá trình hội 
+                            <p>
+                                Chương trình đào tạo đại học ngành Ngôn ngữ Italia nhằm 
+                                đào tạo sinh viên có phẩm chất chính trị vững vàng; có kiến 
+                                thức, kỹ năng, thái độ và đạo đức phù hợp để làm việc trong 
+                                môi trường đa ngôn ngữ, đa văn hóa và có khả năng thích ứng 
+                                cao với những thay đổi nhanh chóng của nền kinh tế đang 
+                                trong quá trình hội
+                                <!-- <span class="tranning-container-readMore">...xem thêm</span>  -->
+                            </p> 
                         </div>
                     </div>
                     <div class="tranning-container">
                         <div class="bodyContent-content-header">Hệ Chính quy Ngôn ngữ Italia</div>
                         <div class="bodyContent-content-description text-clamp line-7">
-                            Chương trình đào tạo đại học ngành Ngôn ngữ Italia nhằm 
-                            đào tạo sinh viên có phẩm chất chính trị vững vàng; có kiến 
-                            thức, kỹ năng, thái độ và đạo đức phù hợp để làm việc trong 
-                            môi trường đa ngôn ngữ, đa văn hóa và có khả năng thích ứng 
-                            cao với những thay đổi nhanh chóng của nền kinh tế đang 
-                            trong quá trình hội 
+                            <p>
+                                Chương trình đào tạo đại học ngành Ngôn ngữ Italia nhằm 
+                                đào tạo sinh viên có phẩm chất chính trị vững vàng; có kiến 
+                                thức, kỹ năng, thái độ và đạo đức phù hợp để làm việc trong 
+                                môi trường đa ngôn ngữ, đa văn hóa và có khả năng thích ứng 
+                                cao với những thay đổi nhanh chóng của nền kinh tế đang 
+                                trong quá trình hội
+                                <!-- <span class="tranning-container-readMore">...xem thêm</span>  -->
+                            </p>
                         </div>
                     </div>
                     <div class="tranning-container">
                         <div class="bodyContent-content-header">Hệ Chính quy Ngôn ngữ Italia</div>
                         <div class="bodyContent-content-description text-clamp line-7">
-                            Chương trình đào tạo đại học ngành Ngôn ngữ Italia nhằm 
-                            đào tạo sinh viên có phẩm chất chính trị vững vàng; có kiến 
-                            thức, kỹ năng, thái độ và đạo đức phù hợp để làm việc trong 
-                            môi trường đa ngôn ngữ, đa văn hóa và có khả năng thích ứng 
-                            cao với những thay đổi nhanh chóng của nền kinh tế đang 
-                            trong quá trình hội 
+                            <p>
+                                Chương trình đào tạo đại học ngành Ngôn ngữ Italia nhằm 
+                                đào tạo sinh viên có phẩm chất chính trị vững vàng; có kiến 
+                                thức, kỹ năng, thái độ và đạo đức phù hợp để làm việc trong 
+                                môi trường đa ngôn ngữ, đa văn hóa và có khả năng thích ứng 
+                                cao với những thay đổi nhanh chóng của nền kinh tế đang 
+                                trong quá trình hội
+                                <!-- <span class="tranning-container-readMore">...xem thêm</span>  -->
+                            </p> 
                         </div>
                     </div>
                 </div>
@@ -268,7 +290,20 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
         </div>
+        <div class="tranning-overlay readMore-overlay">
+            <div class="tranning-overlay-container readMore-overlay-container width-content">
+                <div class="tranning-overlay-content">
+                    <div class="bodyContent-content-header tranning-overlay-content-header">
+                    </div>
+                    <div class="bodyContent-content-description tranning-overlay-content-description"></div>
+                </div>
+                <div class="back-overlay">
+                    <button class="back-overlay-btn">Back</button>   
+                </div>
+            </div>
+        </div>
     </div>
+    
     <!-- Khoa học -->
     <div id="scientific" class="scientific">
         <div class="scientific-clipPath"></div>
@@ -339,7 +374,7 @@
                                     </div>
                                     <div class="bodyContent-more-time">21/10/2021</div>
                                 </div>
-                                <div class="bodyContent-more-readMore">Xem thêm</div>
+                                <div class="bodyContent-more-readMore collab-readMore">Xem thêm</div>
                             </div>
                         </div>
                         <div class="collab-container-content">
@@ -362,7 +397,7 @@
                                     </div>
                                     <div class="bodyContent-more-time">21/10/2021</div>
                                 </div>
-                                <div class="bodyContent-more-readMore">Xem thêm</div>
+                                <div class="bodyContent-more-readMore collab-readMore">Xem thêm</div>
                             </div>
                         </div>
                         <div class="collab-container-content">
@@ -385,7 +420,7 @@
                                     </div>
                                     <div class="bodyContent-more-time">21/10/2021</div>
                                 </div>
-                                <div class="bodyContent-more-readMore">Xem thêm</div>
+                                <div class="bodyContent-more-readMore collab-readMore">Xem thêm</div>
                             </div>
                         </div>
                     </div>
@@ -400,6 +435,18 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
         </div>
+        <div class="collab-overlay readMore-overlay">
+            <div class="collab-overlay-container readMore-overlay-container width-content">
+                <div class="collab-overlay-content">
+                    <div class="bodyContent-content-header collab-overlay-content-header">
+                    </div>
+                    <div class="bodyContent-content-description collab-overlay-content-description"></div>
+                </div>
+                <div class="back-overlay">
+                    <button class="back-overlay-btn">Back</button>   
+                </div>
+            </div>
+         </div>
     </div>
 
     <!-- Trải nghiệm -->
@@ -430,7 +477,7 @@
                                 dành cho Italy. Với cô, Italy là nơi 
                                 Dung học tập để mở mang nhận 
                                 thức lẫn trái tim . Cô ấn tượng với 
-                                các công trình kiến trúc, văn hóa,
+                                các công trình kiến trúc, văn hóa
                             </div>
                             <div class="bodyContent-block">
                                 <div class="bodyContent-more-icon">
@@ -603,6 +650,18 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
         </div>
+        <div class="experience-overlay readMore-overlay">
+            <div class="experience-overlay-container readMore-overlay-container width-content">
+                <div class="experience-overlay-content">
+                    <div class="bodyContent-content-header experience-overlay-content-header">
+                    </div>
+                    <div class="bodyContent-content-description experience-overlay-content-description"></div>
+                </div>
+                <div class="back-overlay">
+                    <button class="back-overlay-btn">Back</button>   
+                </div>
+            </div>
+         </div>
     </div>
     <!-- Thư viện ảnh -->
      <div id="photoGallery" class="photoGallery width-content">
@@ -620,8 +679,29 @@
             <div class="photoGallery-container">
                 <div class="photoGallery-content">
                     <div class="photoGallery-content-img">
+                        <div class="photoGallery-content-img-70 border-block onTopHover">
+                            <img src="./imgs/photoGallery4.jpeg" alt="ảnh lỗi" class="photoGallery-content-img-link">
+                        </div>
+                        <div class="photoGallery-content-img-20 border-block onTopHover">
+                            <img src="./imgs/photoGallery4.jpeg" alt="ảnh lỗi" class="photoGallery-content-img-link">
+                        </div>
+                    </div>
+                    <div class="photoGallery-content-img">
+                        <div class="photoGallery-content-img-40 border-block onTopHover">
+                            <img src="./imgs/photoGallery2.jpg" alt="ảnh lỗi" class="photoGallery-content-img-link">
+                        </div>
+                        <div class="photoGallery-content-img-30 border-block onTopHover">
+                            <img src="./imgs/photoGallery5.jpeg" alt="ảnh lỗi" class="photoGallery-content-img-link">
+                        </div>
+                        <div class="photoGallery-content-img-20 border-block onTopHover">
+                            <img src="./imgs/photoGallery6.jpeg" alt="ảnh lỗi" class="photoGallery-content-img-link">
+                        </div>
+                    </div>
+                </div>
+                <div class="photoGallery-content">
+                    <div class="photoGallery-content-img">
                         <div class="photoGallery-content-img-60 border-block onTopHover">
-                            <img src="./imgs/photoGallery3.webp" alt="ảnh lỗi" class="photoGallery-content-img-link">
+                            <img src="./imgs/photoGallery4.jpeg" alt="ảnh lỗi" class="photoGallery-content-img-link">
                         </div>
                         <div class="photoGallery-content-img-30 border-block onTopHover">
                             <img src="./imgs/photoGallery4.jpeg" alt="ảnh lỗi" class="photoGallery-content-img-link">
@@ -642,28 +722,7 @@
                 <div class="photoGallery-content">
                     <div class="photoGallery-content-img">
                         <div class="photoGallery-content-img-60 border-block onTopHover">
-                            <img src="./imgs/photoGallery3.webp" alt="ảnh lỗi" class="photoGallery-content-img-link">
-                        </div>
-                        <div class="photoGallery-content-img-30 border-block onTopHover">
                             <img src="./imgs/photoGallery4.jpeg" alt="ảnh lỗi" class="photoGallery-content-img-link">
-                        </div>
-                    </div>
-                    <div class="photoGallery-content-img">
-                        <div class="photoGallery-content-img-40 border-block onTopHover">
-                            <img src="./imgs/photoGallery2.jpg" alt="ảnh lỗi" class="photoGallery-content-img-link">
-                        </div>
-                        <div class="photoGallery-content-img-20 border-block onTopHover">
-                            <img src="./imgs/photoGallery5.jpeg" alt="ảnh lỗi" class="photoGallery-content-img-link">
-                        </div>
-                        <div class="photoGallery-content-img-30 border-block onTopHover">
-                            <img src="./imgs/photoGallery6.jpeg" alt="ảnh lỗi" class="photoGallery-content-img-link">
-                        </div>
-                    </div>
-                </div>
-                <div class="photoGallery-content">
-                    <div class="photoGallery-content-img">
-                        <div class="photoGallery-content-img-60 border-block onTopHover">
-                            <img src="./imgs/photoGallery3.webp" alt="ảnh lỗi" class="photoGallery-content-img-link">
                         </div>
                         <div class="photoGallery-content-img-30 border-block onTopHover">
                             <img src="./imgs/photoGallery4.jpeg" alt="ảnh lỗi" class="photoGallery-content-img-link">
@@ -691,6 +750,17 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
         </div>
+        <div class="photoGallery-overlay readMore-overlay">
+            <div class="photoGallery-overlay-container readMore-overlay-container width-content">
+                <div class="photoGallery-overlay-content">
+                    <div class="photoGallery-overlay-content-img">
+                    </div>
+                </div>
+                <div class="back-overlay">
+                    <button class="back-overlay-btn">Back</button>   
+                </div>
+            </div>
+         </div>
      </div>
      <!-- footer -->
      <div id="footer" class="footer">

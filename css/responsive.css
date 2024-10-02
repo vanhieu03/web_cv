@@ -4,6 +4,12 @@
     .wrapper-header-css{
         height: 135%;
     }
+    .back-overlay{
+        left: 5%;
+    }
+    .readMore-overlay-container{
+        max-width: none;
+    }
     .header-logo{
         margin-left: 24px;
     }
