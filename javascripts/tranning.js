@@ -70,7 +70,7 @@ const handleTranningReadMore = (id)=>{
     tranningOverlayDescription.innerHTML = find.description;
 }
 
-tranningContainer.forEach((element, index) =>{
+tranningContentHeader.forEach((element, index) =>{
     element.addEventListener('click', ()=>{
         handleTranningReadMore(index)
         tranningOverlay.style.display = 'block';

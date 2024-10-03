@@ -17,7 +17,7 @@ const experienceContentDescription = document.querySelector('.experience-overlay
 const experienceContent = [
     {
         id : 0,
-        avt: "./imgs/experience.webp",
+        avt: "./imgs/trainghiem1.jpg",
         header: "Hành trình khám phá Italy của cô gái Việt",
         description: "Dung Trần có tình yêu đặc biệt" 
                     +" dành cho Italy. Với cô, Italy là nơi "
@@ -29,7 +29,7 @@ const experienceContent = [
     },
     {
         id : 1,
-        avt: "./imgs/experience.webp",
+        avt: "./imgs/trainghiem.jpg",
         header: "Đam mê quảng bá văn hóa Việt của nữ du học sinh Ý",
         description: "Chia sẻ về hành trình du học của mình, Vân " 
                     + "cho biết: Em không có ý định du học ngay từ đầu, mãi đến " 
@@ -39,7 +39,7 @@ const experienceContent = [
     },
     {
         id : 2,
-        avt: "./imgs/experience.webp",
+        avt: "./imgs/trainghiem2.jpg",
         header: "Hành trình khám phá Italy của cô gái Việt",
         description: "Dung Trần có tình yêu đặc biệt" 
                     +" dành cho Italy. Với cô, Italy là nơi "
@@ -51,7 +51,7 @@ const experienceContent = [
     },
     {
         id : 3,
-        avt: "./imgs/experience.webp",
+        avt: "./imgs/trainghiem3.jpg",
         header: "Hành trình khám phá Italy của cô gái Việt",
         description: "Dung Trần có tình yêu đặc biệt" 
                     +" dành cho Italy. Với cô, Italy là nơi "
@@ -59,11 +59,11 @@ const experienceContent = [
                     +"thức lẫn trái tim . Cô ấn tượng với "
                     +"các công trình kiến trúc, văn hóa",
         iconTime: "<i class=\"fa-regular fa-calendar-xmark\"></i>",
-        time: ""
+        time: "21/10/2021"
     },
     {
         id : 4,
-        avt: "./imgs/experience.webp",
+        avt: "./imgs/trainghiem4.jpg",
         header: "Đam mê quảng bá văn hóa Việt của nữ du học sinh Ý",
         description: "Chia sẻ về hành trình du học của mình, Vân " 
                     + "cho biết: Em không có ý định du học ngay từ đầu, mãi đến " 
@@ -73,7 +73,7 @@ const experienceContent = [
     },
     {
         id : 5,
-        avt: "./imgs/experience.webp",
+        avt: "./imgs/trainghiem6.jpg",
         header: "Hành trình khám phá Italy của cô gái Việt",
         description: "Dung Trần có tình yêu đặc biệt" 
                     +" dành cho Italy. Với cô, Italy là nơi "
@@ -85,7 +85,7 @@ const experienceContent = [
     },
     {
         id : 6,
-        avt: "./imgs/experience.webp",
+        avt: "./imgs/trainghiem.jpg",
         header: "Hành trình khám phá Italy của cô gái Việt",
         description: "Dung Trần có tình yêu đặc biệt" 
                     +" dành cho Italy. Với cô, Italy là nơi "
@@ -97,7 +97,7 @@ const experienceContent = [
     },
     {
         id : 7,
-        avt: "./imgs/experience.webp",
+        avt: "./imgs/trainghiem3.jpg",
         header: "Đam mê quảng bá văn hóa Việt của nữ du học sinh Ý",
         description: "Chia sẻ về hành trình du học của mình, Vân " 
                     + "cho biết: Em không có ý định du học ngay từ đầu, mãi đến " 
@@ -107,7 +107,7 @@ const experienceContent = [
     },
     {
         id : 8,
-        avt: "./imgs/experience.webp",
+        avt: "./imgs/trainghiem4.jpg",
         header: "Hành trình khám phá Italy của cô gái Việt",
         description: "Dung Trần có tình yêu đặc biệt" 
                     +" dành cho Italy. Với cô, Italy là nơi "

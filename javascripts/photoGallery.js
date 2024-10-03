@@ -10,63 +10,63 @@ const photoGalleryContentImg = document.querySelector('.photoGallery-overlay-con
 const photoGalleryImg = [
     {
         id : 0,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo10.jpg"
     },
     {
         id : 1,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo15.jpg"
     },
     {
         id : 2,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo14.jpg"
     },
     {
         id : 3,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo12.jpg"
     },
     {
         id : 4,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo16.jpg"
     },
     {
         id : 5,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo18.jpg"
     },
     {
         id : 6,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo19.jpg"
     },
     {
         id : 7,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo20.jpg"
     },
     {
         id : 8,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo21.jpg"
     },
     {
         id : 9,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo22.jpg"
     },
     {
         id : 10,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo23.jpg"
     },
     {
         id : 11,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo24.jpg"
     },
     {
         id : 12,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo25.jpg"
     },
     {
         id : 13,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo26.jpg"
     },
     {
         id : 14,
-        img : "./imgs/photoGallery4.jpeg"
+        img : "./imgs/photo27.jpg"
     }
 
 ]

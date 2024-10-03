@@ -40,8 +40,8 @@
 }
 
 .onTopBubbleAddress1{
-    top: -5%;
-    left: 5%;
+    top: -2%;
+    left: 8%;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
 }
 
@@ -77,13 +77,17 @@
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-
-
 .index-onTop{
     position: relative;
 }
 /* header */
 .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(270deg, rgba(19, 165, 85, 0.6), rgba(119, 206, 158, 0.6));
+    z-index: 999;
     padding-top: 40px;
     height: 60px;
 }
@@ -98,9 +102,9 @@
     margin-right: 20px;
 }
 
-
 .header-logo{
     display: flex;
+    cursor: pointer;
 }
 
 .header-logo-img{
@@ -182,9 +186,9 @@
     color: var(--text-color);
 }
 
-
 .header-list{
     /* display: none; */
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +207,11 @@
 }
 
 .header-list-search{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     padding: 8px 16px;
+    cursor: pointer;
 }
 
 .header-list-search-icon{
@@ -212,12 +220,29 @@
     font-size: 24px;
 }
 
+/* .header-search-active{
+    margin-left: 6px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.header-search-input{
+    width: 120px;
+    padding: 8px 8px 8px 16px;
+    font-size: 1.6rem;
+    outline: none;
+    border: none;
+    color: var(--header-color);
+    background-color: #6AC995;
+} */
+
+
 /* Container */
 .container{
     width: 100%;
     height: 500px;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 250px;
     color: var(--header-color);
 }
 .container-title{
@@ -254,7 +279,6 @@
     height: 260px;
     box-shadow: 0px 5px 16px -4px #888888;
 }
-
 
 .additionalInfo-block-icon{
     display: flex;
@@ -341,7 +365,6 @@
     padding: 0 24px;
 }
 
-
 .events-content-header{
     font-size: 2rem;
     font-weight: 600;
@@ -386,6 +409,9 @@
     left: 15%;
 }
 
+.events-overlay-content-header{
+    margin: 0 42px;
+}
 
 /* tranning */
 .training{
@@ -421,8 +447,8 @@
     flex: 1 0 100%;
 }
 
-.tranning-container:hover{
-    
+.tranning-container .bodyContent-content-header:hover{
+    color: #019E48;
     cursor: pointer;
 }
 
@@ -453,7 +479,6 @@
     position: relative;
     z-index: 1;
 }
-
 
 .scientific-clipPath{
     position: absolute;

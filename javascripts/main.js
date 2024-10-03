@@ -1,6 +1,8 @@
 // button backOverlay
 const backOverlay = document.querySelectorAll('.back-overlay-btn');
 // menu
+const headerlogo = document.querySelector('.header-logo');
+const headerListSearch = document.querySelector('.header-list-search');
 const menuElement = document.querySelector('.header-menu');
 const headerWrapper = document.querySelector('.header-wrapper');
 const headerWrapperElement = document.querySelector('.header-wrapper-element');
@@ -23,5 +25,11 @@ headerWrapper.addEventListener('click', (e) =>{
 })
 headerWrapperElement.addEventListener('click', (e) =>{
     e.stopPropagation();
+})
+
+headerlogo.addEventListener('click', ()=>{
+    window.scrollTo({
+        top: 0
+    })
 })
 
