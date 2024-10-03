@@ -460,6 +460,9 @@
     padding: 0 42px !important;
 }
 
+.tranning-arrow{
+    margin-left: 24px;
+}
 
 /* Khoa học */
 
@@ -497,16 +500,20 @@
 
 .scientific-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 40px;
     padding-bottom: 60px;
 }
 
-
 .scientific-container-content{
     width: 43%;
+    height: 398px;
     text-align: center;
     background-color: var(--back-content);
+}
+
+.scientific-container-content:nth-child(2){
+    margin-top: 60px;
 }
 
 .scientific-content-img{
@@ -646,6 +653,8 @@
 }
 
 .experience-container{
+    max-height: calc(376px *2.5);
+
     flex: 1 0 100%;
     display: flex;
     justify-content: space-around;
@@ -657,8 +666,12 @@
 
 .experience-container-wrapper{
     position: relative;
-    width: 30%;
-    height: 100%;
+
+    flex: 1 0 30%;
+    margin: 0 18px;
+
+    /* width: 30%; */
+    height: 376px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -680,7 +693,7 @@
     font-size: 1.5rem;
     text-transform: capitalize;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
     line-height: 1.6;
 }
 
