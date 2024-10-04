@@ -507,7 +507,7 @@
 
 .scientific-container-content{
     width: 43%;
-    height: 398px;
+    height: min-content;
     text-align: center;
     background-color: var(--back-content);
 }
@@ -653,8 +653,6 @@
 }
 
 .experience-container{
-    max-height: calc(376px *2.5);
-
     flex: 1 0 100%;
     display: flex;
     justify-content: space-around;
@@ -666,10 +664,8 @@
 
 .experience-container-wrapper{
     position: relative;
-
     flex: 1 0 30%;
     margin: 0 18px;
-
     /* width: 30%; */
     height: 376px;
     background-color: #fff;

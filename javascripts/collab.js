@@ -48,8 +48,6 @@ collabContainerContent.forEach((element, index) =>{
 
 let collabIndex = 0;
 
-showSlideCollab(collabIndex);
-
 function showSlideCollab(collabIndex){
     const width = collabContainerContent[0].offsetWidth;
     collabWrapper.style.transform = `translateX(${ -width * collabIndex}px)`;

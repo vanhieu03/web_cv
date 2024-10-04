@@ -10,7 +10,6 @@ const tranningOverlay = document.querySelector('.tranning-overlay');
 const tranningOverlayHeader = document.querySelector('.tranning-overlay-content-header');
 const tranningOverlayDescription = document.querySelector('.tranning-overlay-content-description');
 
-
 const tranningContent = [
     {
         id: 0,
@@ -41,7 +40,6 @@ tranningContainer.forEach((element, index) =>{
 })
 
 let tranningIndex = 0;
-showSlideTranning(tranningIndex);
 
 function showSlideTranning(tranningIndex){
     const width = tranningContainer[0].offsetWidth;
@@ -72,7 +70,7 @@ const handleTranningReadMore = (id)=>{
 
 tranningContentHeader.forEach((element, index) =>{
     element.addEventListener('click', ()=>{
-        handleTranningReadMore(index)
+        handleTranningReadMore(index);
         tranningOverlay.style.display = 'block';
         document.body.style.overflow = 'hidden';
     })

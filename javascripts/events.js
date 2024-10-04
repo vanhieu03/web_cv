@@ -55,8 +55,6 @@ const eventsArrowLeft = document.querySelector('.events-arrowLeft');
 const eventsArrowRight = document.querySelector('.events-arrowRight');
 let eventsIndex = 0;
 
-// Hiển thị slide đầu tiên
-showSlideEvent(eventsIndex);
 
 // Hàm hiển thị slide hiện tại
 function showSlideEvent(eventsIndex) {
@@ -101,7 +99,6 @@ eventsReadMores.forEach((eventsReadMore, index) =>{
         eventsOverlay.style.display = 'block';
         document.body.style.overflow = 'hidden';
     })
-    
 })
 
 backOverlay.forEach(element =>{

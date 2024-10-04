@@ -104,6 +104,8 @@
 
     .bodyContent-content-header{
         margin-top: 0;
+        margin-left: 42px;
+        margin-right: 42px;
     }
     .header-wrapper-element{
         width: 50%;
@@ -185,6 +187,7 @@
         height: 100%;
     }
     .experience-container-wrapper{
+        flex: 1 0 50%;
         width: 80%;
         margin-top: 100px;
     }

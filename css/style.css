@@ -208,3 +208,6 @@ a{
     background-color: #ccc;
     cursor: pointer;
 }
+.displayNone{
+    display: none;
+}

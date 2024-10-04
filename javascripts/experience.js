@@ -13,6 +13,8 @@ const experienceArrowRight = document.querySelector('.experienceArrowRight');
 const experienceOverlay = document.querySelector('.experience-overlay');
 const experienceContentHeader = document.querySelector('.experience-overlay-content-header');
 const experienceContentDescription = document.querySelector('.experience-overlay-content-description');
+//lấy 3 experienceContainerWrapper đầu tiên làm slideshow
+const experienceContainerWrapper3 = Array.from(experienceContainerWrapper).slice(0, 3);
 
 const experienceContent = [
     {
@@ -135,7 +137,6 @@ experienceContainerWrapper.forEach((element, index) =>{
 
 let experienceIndex = 0;
 
-slideShowExperience(experienceIndex);
 function slideShowExperience(experienceIndex){
     const width = experienceContainer[0].offsetWidth;
     experienceWrapper.style.transform = `translateX(${-width * experienceIndex}px)`;
@@ -146,6 +147,7 @@ experienceArrowRight.addEventListener('click', ()=>{
         experienceIndex = 0;
     }
     slideShowExperience(experienceIndex);
+
 })
 experienceArrowLeft.addEventListener('click', ()=>{
     experienceIndex--;

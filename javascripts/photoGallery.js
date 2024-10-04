@@ -85,7 +85,6 @@ const photoGalleryImgLink = document.querySelectorAll('.photoGallery-content-img
 
 let photoGalleryIndex = 0;
 
-slideShowPhotoGallery(photoGalleryIndex);
 function slideShowPhotoGallery(photoGalleryIndex){
     const width = photoGalleryContent[0].offsetWidth;
     photoGalleryContainer.style.transform = `translateX(${-width * photoGalleryIndex}px)`;
